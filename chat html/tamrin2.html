@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tamrin 2</title>
+    <link rel="stylesheet" href="http://cdn.font-store.ir/yekan.css" />
+    <link rel="stylesheet" href="/chat css/tamrin2.css" />
+  </head>
+  <body dir="rtl">
+
+
+
+
+    <div class="container">
+      <h1>مدیریت هزینه‌ها</h1>
+
+      <div>
+        <input type="text" id="amount" placeholder="مقدار هزینه" />
+        <input type="text" id="description" placeholder="توضیحات هزینه" />
+        <select id="taskCategory">
+          <option value="کار های خانه">خانه</option>
+          <option value="خرید">خرید</option>
+          <option value="برنامه نویسی">برنامه نویسی</option>
+        </select>
+        <button id="addExpense">اضافه کردن هزینه</button>
+      </div>
+
+      <ul id="expenseList"></ul>
+
+      <div>
+        <h2>مجموع هزینه‌ها: <span id="totalAmount">0</span></h2>
+      </div>
+    </div>
+
+    
+
+    <script src="/chat jsc/tamrin2.js"></script>
+  </body>
+</html>

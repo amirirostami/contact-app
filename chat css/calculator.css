@@ -1,0 +1,93 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, green, yellow);
+}
+
+.item-m {
+  background-color: #bababa;
+  width: 213px;
+  height: 271px;
+  position: relative;
+  padding: 17px;
+  border-radius: 10px;
+}
+
+.cantioner {
+  margin-top: 93px;
+}
+
+.mashin {
+  width: 43px;
+  height: 40px;
+  margin: 3px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  background-color: white;
+  border-radius: 9px;
+}
+
+.hazf {
+  position: absolute;
+  top: 63px;
+  right: 22px;
+  color: white;
+  background-color: red;
+  width: 42px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+
+.bob {
+  width: 142px;
+  height: 33px;
+  border: none;
+  border-radius: 3px;
+  margin-left: 6px;
+  margin-top: 2px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 50px;
+}
+
+.zarb,
+.kam,
+.jam,
+.nogteh,
+.mosavi,
+.tagsim {
+  background-color: #707070;
+  color: white;
+}
+
+.bob::placeholder {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mosavi {
+  background-color: green;
+  color: white;
+}
+
+.oops {
+  background-color: #ff8f0f;
+  position: absolute;
+  top: 17px;
+  right: 20px;
+}
