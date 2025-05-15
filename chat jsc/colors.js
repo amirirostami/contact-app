@@ -40,9 +40,7 @@ colors.forEach(function (x) {
 
 
 document.getElementById("bb").addEventListener("click", addcolor);
-document
-  .getElementById("colorInput")
-  .addEventListener("keypress", function (x) {
+document.getElementById("colorInput").addEventListener("keypress", function (x) {
     if (x.key === "Enter") {
       addcolor();
     }

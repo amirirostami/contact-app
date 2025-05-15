@@ -37,6 +37,12 @@ body {
   border-radius: 9px;
 }
 
+.mashin:hover {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+}
+
 .hazf {
   position: absolute;
   top: 63px;
